@@ -1,7 +1,7 @@
 pipeline:
-  docker-landing-page:
+  docker-landing_page:
     image: plugins/docker:1.12
-    repo: registry.eorlbruder.de/landing-page
+    repo: registry.eorlbruder.de/landing_page
     registry: registry.eorlbruder.de
     tags:
       - latest
